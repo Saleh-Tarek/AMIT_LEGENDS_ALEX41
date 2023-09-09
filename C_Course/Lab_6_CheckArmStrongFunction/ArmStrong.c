@@ -1,7 +1,7 @@
 /**
- * ArmStrong Number
- * ASG 2.2
- * Tarek Saleh
+ * Program		:	Fine if a given number is an ArmStrong Number or not.
+ * Assignment	:	ASG 2.2
+ * Auther		:	Tarek Saleh
  * 
  * **/
 
