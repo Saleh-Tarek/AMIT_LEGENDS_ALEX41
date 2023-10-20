@@ -1,0 +1,31 @@
+DMA: {Dynamic Memory Allocation}
+
+Rules and Conditions to proivde [DMA]:
+
+
+1- Provide heap memory secion(RAM).
+2- Provide standard library to deal with heap memory: stdlib.
+#include <stdlib.h>
+_______________________________
+
+Memory Allocation:
+
+1- malloc function:
+
+void * malloc(#of bytes);
+returns the address of the first byte.
+int n;
+scanf("%d",&n);
+int *ptr1= (int *) malloc(n* sizeof(int));
+float *ptr2= (float *) malloc(n* sizeof(float));
+char *ptr3= (char *) malloc(n* sizeof(char));
+/*What about structs???
+*/
+typedef struct{
+	int var;
+	char data;
+}Mystruct;
+
+Mystruct * ptr4= (Mystruct*) malloc(n*sizeof(Mystruct));
+
+

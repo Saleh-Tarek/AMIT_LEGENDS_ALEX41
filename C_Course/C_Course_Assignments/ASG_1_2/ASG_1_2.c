@@ -3,8 +3,6 @@
  * 	Program Function		:	Toggle to a certain bit
  * 	Program	Auther			:	Tarek Saleh
  * 	Program writing Date	:	03/09/2023
- *	
- * 	
  *  */
 
 #include <stdio.h>
